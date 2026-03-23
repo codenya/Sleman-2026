@@ -1,14 +1,18 @@
-<script>
-(function() {
-  const url = window.location.href;
-
-  // ambil path
-  const path = window.location.pathname;
-
-  // kalau akses versi lowercase
-  if (path.includes("/sleman-2026")) {
-    const newUrl = url.replace("/sleman-2026", "/Sleman-2026");
-    window.location.replace(newUrl);
-  }
-})();
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=https://codenya.github.io/Sleman-2026/">
+    <title>Redirecting...</title>
+    <script>
+        // JavaScript redirect for handling case-sensitive URLs
+        if (window.location.href.includes('sleman-2026')) {
+            window.location.replace('https://codenya.github.io/Sleman-2026/');
+        }
+    </script>
+</head>
+<body>
+    <p>Redirecting to <a href="https://codenya.github.io/Sleman-2026/">https://codenya.github.io/Sleman-2026/</a>...</p>
+</body>
+</html>
