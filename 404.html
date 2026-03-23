@@ -1,0 +1,14 @@
+<script>
+(function() {
+  const url = window.location.href;
+
+  // ambil path
+  const path = window.location.pathname;
+
+  // kalau akses versi lowercase
+  if (path.includes("/sleman-2026")) {
+    const newUrl = url.replace("/sleman-2026", "/Sleman-2026");
+    window.location.replace(newUrl);
+  }
+})();
+</script>
